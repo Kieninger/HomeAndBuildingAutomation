@@ -1,0 +1,50 @@
+Setting up Minibian for Windows
+http://elinux.org/RPi_Easy_SD_Card_Setup#Using_the_Win32DiskImager_program
+
+Finding the right ip address of the raspberry
+https://www.raspberrypi.org/documentation/remote-access/ip-address.md
+nmap
+
+Nano installation
+apt-get install nano
+
+Config static ip for raspberry
+etc/network/interfaces
+iface eth0 inet static
+address 192.168.3.14
+netmask 255.255.255.0
+gateway 192.168.3.1
+
+SSH Connection 
+Generate with public/private key on raspberry ssh-keygen
+http://jankarres.de/2013/12/raspberry-pi-ssh-schluessel-erstellen-und-passwort-aendern/
+
+Blinking Led Blinking
+apt-get update
+sudo apt-get install gcc
+http://wiringpi.com/examples/blink/
+
+http://wiringpi.com/the-gpio-utility/
+
+Enable port 17
+gpio write 0 1
+
+Disable port 17
+gpio write 0 0
+
+Increase Storage
+apt-get raspi-config
+
+Prepare Phyton
+https://learn.adafruit.com/raspberry-pi-e-mail-notifier-using-leds/prepare-python
+sudo apt-get install python-pip
+sudo apt-get install python-dev
+pip install RPi.GPIO
+
+http://openmicros.org/index.php/articles/94-ciseco-product-documentation/raspberry-pi/217-getting-started-with-raspberry-pi-gpio-and-python
+
+sudo python
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(18, GPIO.OUT)
+GPIO.output(18, True)
+GPIO.output(18, False)
