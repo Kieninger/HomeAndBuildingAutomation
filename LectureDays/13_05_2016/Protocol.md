@@ -54,3 +54,14 @@ client.connect("localhost", 1883, 60)
 # manual interface.
 client.loop_forever()
 ```
+
+##Arduino
+Download arduino ide
+```sh
+$ sudo apt-get update && sudo apt-get install arduino arduino-core
+```
+https://github.com/esp8266/Arduino
+
+Problem:
+Installed in download -> doesn't work
+Installed in opt folder
