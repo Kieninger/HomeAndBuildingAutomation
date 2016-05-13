@@ -1,0 +1,22 @@
+apt-get install python-virtualenv
+apt-get install python-dev
+apt-get install mc
+apt-get install aptitude
+apt-get install python-pip
+apt-get install ipython
+apt-get install mercurial
+apt-get install python-feedparser
+apt-get install wiringpi
+apt-get install libffi-dev
+apt-get install build­essential
+apt-get install libssl­dev
+apt-get install python­rpi.gpio
+
+Comfort, Protection, Efficiency
+
+ssh ulno-vps@ulno.net -p 4242 -R "*:10022:localhost:8000"
+
+DHCP-Server
+http://matthewmoisen.com/blog/programming/raspberry-pi/how-to-connect-to-a-raspberry-pi-without-internet-using-an-ethernet-cable-and-a-dhcp-server/
+https://docs.google.com/document/d/1OTFz-6VSz6B4PB1uAuZ4prNumuPjjjvVIamwIG4Nz6g/edit
+
