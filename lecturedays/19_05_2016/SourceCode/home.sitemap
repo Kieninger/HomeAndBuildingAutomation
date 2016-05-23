@@ -1,0 +1,9 @@
+sitemap home label="Home"
+{
+	Frame {
+		Switch item=LEDs
+		Switch item=LEDRed
+		Switch item=LEDYellow
+		Switch item=SpecialLED	
+	}
+}

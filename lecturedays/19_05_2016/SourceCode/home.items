@@ -1,0 +1,8 @@
+Group:Switch	LEDs 	"All LEDs"
+
+Switch		LEDRed		"LED Red"	(LEDs)	{ gpio="pin:23" }
+Switch		LEDYellow	"LED Yellow"	(LEDs) 	{ gpio="pin:25" }
+
+Switch 		SpecialLED	"SpecialLED" 		{ gpio="pin:17" }
+
+Contact LEDButton {gpio="pin:24 activelow:yes force:yes"}

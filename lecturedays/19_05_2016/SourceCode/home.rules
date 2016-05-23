@@ -1,0 +1,26 @@
+import org.openhab.model.script.actions.Timer
+
+var Timer speciaTimer
+
+rule "Enable LED if button pressed"
+when
+        Item LEDButton changed to CLOSED
+then
+	if(speciaTimer==null) {
+ 		SpecialLED.sendCommand(ON)
+        	speciaTimer= createTimer(now.plusMillis(50)) [|
+        		sendCommand(SpecialLED, OFF)
+			sendCommand(LEDRed, ON)
+
+			speciaTimer = createTimer(now.plusMillis(50)) [|
+        			sendCommand(LEDRed, OFF)
+				sendCommand(LEDYellow, ON)
+
+				speciaTimer = createTimer(now.plusMillis(50)) [|
+        				sendCommand(LEDYellow, OFF)
+					speciaTimer = null
+        			]
+        		]
+        	]
+        }
+end
