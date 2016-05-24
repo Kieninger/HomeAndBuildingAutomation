@@ -1,0 +1,15 @@
+Group:Switch	LEDs 	"All LEDs"
+
+Switch		LEDRed		"LED Red"	(LEDs)	{ gpio="pin:23" }
+Switch		LEDYellow	"LED Yellow"	(LEDs) 	{ gpio="pin:25" }
+
+Switch 		SpecialLED	"SpecialLED" 	(LEDs)	{ gpio="pin:17" }
+
+Contact LEDButton {gpio="pin:24 activelow:yes force:yes"}
+
+Switch  Light_HUE_1    {hue="1"}
+Switch  Light_HUE_3    {hue="3"}
+Color	Light_HUE_COLORED_3 {hue="3"}
+
+Switch EnButton () {enocean="{id=00:29:47:9A, eep=F6:02:01, channel=B}"}
+Number Temperature "Temperature [%.1f °C]" <temperature> (All) {enocean="{id=01:81:B9:B6, eep=A5:02:05, parameter=TEMPERATURE}"}

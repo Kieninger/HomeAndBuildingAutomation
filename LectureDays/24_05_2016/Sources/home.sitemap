@@ -1,0 +1,17 @@
+sitemap home label="Home"
+{
+	Frame {
+		Switch item=LEDs
+		Switch item=LEDRed
+		Switch item=LEDYellow
+		Switch item=SpecialLED
+		Switch item=Light_HUE_1
+		Switch item=Light_HUE_3
+		Colorpicker item=Light_HUE_COLORED_3
+	}
+
+	Frame label="EnOcean"
+ 	{
+   		Text item=Temperature valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+ 	}
+}
