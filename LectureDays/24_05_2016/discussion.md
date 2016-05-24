@@ -9,57 +9,52 @@
     * Team Con
 * Simpsons Video Part 1
 * Team Pro introduction (60-120 sec)
-
-All hapenns with a tap on the smartphone or even with a voice command
-Increases security
-Much saver
-Smart home 
-Just a tap away
-
-Single point of control
-Lights go on automatically 
-Sound systems turn on automatically
-Much more cheaper now
+	* Alex
+		* All hapenns with a tap on the smartphone or even with a voice command
+		* Increases security
+		* Much saver
+		* Smart home 
+		* Just a tap away
+	* Stefan
+		* Single point of control
+		* Lights go on automatically 
+		* Sound systems turn on automatically
+		* Much more cheaper now
 
 * Simspons Video Part 2
 * Team Con introduction (60-120 sec)
 
-Konrad:
-Not secure enough to use
-Privacy issues
-Daily hacker attacks
-Unsecured cameras -> Reality 
-Spion of government
-Hardware expensive
+	* Konrad
+		* Not secure enough to use
+		* Privacy issues
+		* Daily hacker attacks
+		* Unsecured cameras -> Reality 
+		* Spion of government
+		* Hardware expensive
 
-PJ:
-Costs
-Spend on other things
-Don't see any benift
+	* PJ
+		* Costs
+		* Spend on other things
+		* Don't see any benift
 
 * Topic 1: **Comfort**
     * Is it really easier to control the light with your smartphone in your bedroom while you are in the bedroom? 
     * What to do if you cannot find your smartphone and it's dark in the flat?
 
 * Pro
-Smartphone is always with you
-Make coffee from your bedroom
-Not necessary always with smartphone, a lot access
-Coffee ready when you are there
-Shooping -> Door is opened automatically
-Depends on the user
+	* Smartphone is always with you
+	* Make coffee from your bedroom
+	* Not necessary always with smartphone, a lot access
+	* Coffee ready when you are there
+	* Shooping -> Door is opened automatically
+	* Depends on the user
 
 		
-* Con 1
-Coffee maschine: Still setup a filter, add coffee and press a butoton -> Not refill -> Still need to prepare
-It really has an impact to our live, if something is broken
-Adds more possible problems
-Door automatically opened -> Really insecure
-
-Thomas
-Best option for home remote
--> Not everthing with smartphone
--> Control unit sin every room
+* Con
+	* Coffee maschine: Still setup a filter, add coffee and press a butoton -> Not refill -> Still need to prepare
+	* It really has an impact to our live, if something is broken
+	* Adds more possible problems
+	* Door automatically opened -> Really insecure
 	
 * Topic 2: **Costs**
     * What are the savings per year compared with the initial costs?
@@ -67,16 +62,16 @@ Best option for home remote
     * What about the energy consumption of the controller devices?
 		
 * Pro
-2500 $ -> Not expensive
-Not difficult 
-Upgrades are not a problem, you can do it but you must do it
+	* 2500 $ -> Not expensive
+	* Not difficult 
+	* Upgrades are not a problem, you can do it but you must do it
 		
 * Con
-2300$ if you do it yourself
-Company with Support: 5000 - 15000 $
-Never make up to costs
-How often to you buy anew phone? Same with HA, because eveery 123 years you hav eto upgrade your house
-A lot of time investment
+	* 2300$ if you do it yourself
+	* Company with Support: 5000 - 15000 $
+	* Never make up to costs
+	* How often to you buy anew phone? Same with HA, because eveery 123 years you hav eto upgrade your house
+	* A lot of time investment
 		
 * Topic 3: **Software**
     * Would you like to have everything from the same vendor ? 
@@ -86,15 +81,15 @@ A lot of time investment
 		
 				
 * Pro
-- Monopoly is not good
-- Just choose between the companies
-- Save more that you pay
-- Invest in insulation
+	* Monopoly is not good
+	* Just choose between the companies
+	* Save more that you pay
+	* Invest in insulation
 		
 * Con
-- Don't trust your own system -> Have a back up key	
-- Companies have to be reliable
-- High costs for abo
+	* Don't trust your own system -> Have a back up key	
+	* Companies have to be reliable
+	* High costs for abo
 		
 * Topic 4: Interfaces
     * Do you think additional standards a needed ?
@@ -103,7 +98,7 @@ A lot of time investment
     * Do you think that there will be THE HAB standard soon? (like TCP/IP or HTTP)
 		
 * Pro
-2 protocols: ZigBee and Z-Wave
+	* 2 protocols: ZigBee and Z-Wave
 		
 * Con
 			
@@ -114,16 +109,16 @@ A lot of time investment
 	* What would you do if a hacker attacks your house and installs a virus in your air condition?
 
 * Pro
-Makes no difference between if with autoamted system
+	* Makes no difference between if with autoamted system
 		
 * Con
-Website: Really big security leak in 3 open source systems
-Could identify if the user is home
-Control the alarm system
-Family safety
-Risk it for some home automation?
-Everybody is relialing on each other
-Can't feel safe at home
+	* Website: Really big security leak in 3 open source systems
+	* Could identify if the user is home
+	* Control the alarm system
+	* Family safety
+	* Risk it for some home automation?
+	* Everybody is relialing on each other
+	* Can't feel safe at home
 
 * Topic 6: Being supervised / Privacy
     * Would you rather have more privacy or encanced features of your smart home?
@@ -132,9 +127,9 @@ Can't feel safe at home
 
 	
 * Pro
-Adjust to your behavior
+	* Adjust to your behavior
 
 		
 * Con
-How many people have tapped their webcam?
+	* How many people have tapped their webcam?
 	
